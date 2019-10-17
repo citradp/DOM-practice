@@ -1,8 +1,8 @@
 // alert("Hello")
 var randomDice1 = Math.floor(Math.random() * 6) + 1;
-var numberDice1 = "../images/dice" + randomDice1 + '.png';
+var numberDice1 = "/images/dice" + randomDice1 + '.png';
 var randomDice2 = Math.floor(Math.random() * 6) + 1;
-var numberDice2 = "../images/dice" + randomDice2 + '.png';
+var numberDice2 = "/images/dice" + randomDice2 + '.png';
 
 var dice1 = document.querySelectorAll('img')[0];
 dice1.setAttribute("src", numberDice1)
